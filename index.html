@@ -6,22 +6,26 @@
     <title>메인</title>
   </head>
   <body>
-<h1 style="font-size:35px; color:black; text-align: center;">colorise의 개인 사이트에 오신걸 환영합니다</h1>
-<hr>
-<ul>
- <li><input type="button" value="구매 노래 목록" onclick="location.href='mysonglist.html'" ></li>
- <li><input type="button" value="지저분한 연습1" onclick="location.href='coding practice.html'"></li>
-</ul>
-<style>
-input{
-  border: 6px;
-  color: black;
-  padding: 20px;
+    <style>
+    body{
+      background-color: #FBE9E9
+    }
+  </style>
+<h1 style="font-size:35px; color:#5C7B7D; text-align: center;">colorise의 개인 사이트에 오신걸 환영합니다</h1>
+<hr style="color: #384E5E;">
+<style> input{
+  padding: 10px;
+  background-color: #C5D6E0;
   margin: 10px;
+  color: #FFFFFE;
 }
 </style>
+<ul>
+ <li><input type="button" value="구매 노래 목록" onclick="location.href='mysonglist.html'" style="font-size:20px; " ></li>
+ <li><input type="button" value="지저분한 연습1" onclick="location.href='coding practice.html'" style="font-size: 20px; "></li>
+</ul>
 <form>
-  <p>이 사이트에 대한 자신의 생각을 보내 주십시오<input type="text" name="opinion" >
+  <p style="color: #5C7B7D">이 사이트에 대한 자신의 생각을 보내 주십시오<input type="text" name="opinion" >
   <input type="submit" name="submit" value="제출" onclick="link()" color="black"></form>
   <script>
    function link(){
