@@ -22,6 +22,8 @@
   background-color: #C5D6E0;
   margin: 10px;
   color: #FFFFFE;
+  border: 2px #C5D6E0 solid
+  width: 35px
 }
 </style>
 <ul>
@@ -29,12 +31,12 @@
  <li><input type="button" value="지저분한 연습1" onclick="location.href='coding practice.html'" style="font-size: 20px; "></li>
 </ul>
 <form>
-  <p style="color: #5C7B7D">이 사이트에 대한 자신의 생각을 보내 주십시오<input type="text" name="opinion" >
-  <input type="submit" name="submit" value="제출" onclick="link()" color="black"></form>
+  <p style="color: #5C7B7D">이 사이트에 대한 자신의 생각을 보내 주십시오<input type="text" name="opinion" style="color: black;" >
+  <input type="button" name="submit" value="제출" onclick="link()"></form>
   <script>
    function link(){
      alert('It doesnt matther what you think!');
-     location.herf="index";
+
    }
 </script>
 
