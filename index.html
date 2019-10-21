@@ -8,22 +8,29 @@
   <body>
     <style>
     body{
-      background-color: #FBE9E9
+      background-color: #C3D9EE
     }
     hr{
       color: #384E5E;
+    }
+    div{
+      color: black;
     }
   </style>
 <hr>
 <h1 style="font-size:35px; color:#5C7B7D; text-align: center;">colorise의 개인 사이트에 오신걸 환영합니다</h1>
 <hr>
-<style> input{
+<style>
+input{
   padding: 10px;
-  background-color: #C5D6E0;
+  background-color: #7FBBEA;
   margin: 10px;
   color: #FFFFFE;
-  border: 2px #C5D6E0 solid
-  width: 35px
+  border-radius: 10px #6B5A39;
+
+}
+div{
+  background-color:#C3D9EE;
 }
 </style>
 <ul>
@@ -31,12 +38,13 @@
  <li><input type="button" value="지저분한 연습1" onclick="location.href='coding practice.html'" style="font-size: 20px; "></li>
 </ul>
 <form>
-  <p style="color: #5C7B7D">이 사이트에 대한 자신의 생각을 보내 주십시오<input type="text" name="opinion" style="color: black;" >
-  <input type="button" name="submit" value="제출" onclick="link()"></form>
+<div id="a">
+  <p style="color: #193D61">이 사이트에 대한 자신의 생각을 보내 주십시오<input type="text" name="opinion"style="color: black;" class="1">
+  <input onekeydown="btn001()"type="button" name="submit" value="제출" onclick="link()"></form>
+</div>
   <script>
    function link(){
      alert('It doesnt matther what you think!');
-
    }
 </script>
 
